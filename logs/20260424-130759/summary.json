@@ -1,0 +1,28 @@
+{
+  "run_id": "20260424-130759",
+  "generated_at": "2026-04-24 13:19:34",
+  "results": [
+    {
+      "name": "Memory backend checks",
+      "description": "Ki\u1ec3m tra 4 memory backends: short-term, profile, episodic, semantic.",
+      "command": [
+        "E:\\work\\vinuni\\week_4\\Lab17-LeHongAnh-2A202600096\\.venv\\Scripts\\python.exe",
+        "tests/test_memory.py"
+      ],
+      "exit_code": 0,
+      "log_file": "logs\\20260424-130759\\tests_test_memory_py.log"
+    },
+    {
+      "name": "Benchmark 10 conversations",
+      "description": "Ch\u1ea1y \u0111\u00fang 10 multi-turn conversations v\u00e0 so s\u00e1nh no-memory vs with-memory theo rubric.",
+      "command": [
+        "E:\\work\\vinuni\\week_4\\Lab17-LeHongAnh-2A202600096\\.venv\\Scripts\\python.exe",
+        "tests/test_conversations.py",
+        "--output",
+        "E:\\work\\vinuni\\week_4\\Lab17-LeHongAnh-2A202600096\\logs\\20260424-130759\\benchmark_results.json"
+      ],
+      "exit_code": 1,
+      "log_file": "logs\\20260424-130759\\tests_test_conversations_py.log"
+    }
+  ]
+}

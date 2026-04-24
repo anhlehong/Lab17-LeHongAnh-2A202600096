@@ -1,0 +1,32 @@
+============================================================
+Running Memory Backend Tests
+============================================================
+
+=== Test Short-term Memory ===
+[OK] Added 3 messages
+[OK] Sliding window works
+[OK] Get recent text works
+[OK] Clear works
+
+=== Test Profile Memory ===
+[OK] Update facts works
+[OK] Conflict handling works
+[OK] Get single fact works
+[OK] Delete fact works
+[OK] Clear works
+
+=== Test Episodic Memory ===
+[OK] Add episode works
+[OK] Multiple episodes work
+[OK] Search episodes works
+[OK] Clear works
+
+=== Test Semantic Memory ===
+[OK] ChromaDB initialized: test_docs_09b2f125ee844cb4a4421794cdf7dd8a
+[OK] Add documents works
+[OK] Search works
+[OK] Search different query works
+
+============================================================
+[OK] All tests passed!
+============================================================

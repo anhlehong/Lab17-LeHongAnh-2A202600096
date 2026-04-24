@@ -1,0 +1,24 @@
+{
+  "run_id": "20260424-125743",
+  "generated_at": "2026-04-24 13:08:59",
+  "results": [
+    {
+      "command": [
+        "E:\\work\\vinuni\\week_4\\Lab17-LeHongAnh-2A202600096\\.venv\\Scripts\\python.exe",
+        "tests/test_memory.py"
+      ],
+      "exit_code": 0,
+      "log_file": "logs\\20260424-125743\\tests_test_memory_py.log"
+    },
+    {
+      "command": [
+        "E:\\work\\vinuni\\week_4\\Lab17-LeHongAnh-2A202600096\\.venv\\Scripts\\python.exe",
+        "tests/test_conversations.py",
+        "--output",
+        "E:\\work\\vinuni\\week_4\\Lab17-LeHongAnh-2A202600096\\logs\\20260424-125743\\benchmark_results.json"
+      ],
+      "exit_code": 1,
+      "log_file": "logs\\20260424-125743\\tests_test_conversations_py.log"
+    }
+  ]
+}
