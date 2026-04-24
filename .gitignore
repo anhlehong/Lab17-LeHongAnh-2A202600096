@@ -26,6 +26,7 @@ tmp/
 
 .vscode/
 .idea/
+.kiro/
 *.swp
 *.swo
 
